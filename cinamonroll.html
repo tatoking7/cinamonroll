@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquillaje Sweet - Productos Cinnamon Roll</title>
+    <link rel="stylesheet" href="cinamon.css">
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo-maquillaje-sweet.png" alt="Maquillaje Sweet">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#cinnamon-roll">Cinnamon Roll</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h1>Bienvenidos a Maquillaje Sweet</h1>
+        <p>Descubre nuestra selección de productos de maquillaje de alta calidad</p>
+        <button>Explorar productos</button>
+    </section>
+    <section id="productos">
+        <h2>Nuestros productos</h2>
+        <div class="categorias">
+            <button>Base y corrector</button>
+            <button>Sombra y eyeliner</button>
+            <button>Labial y gloss</button>
+            <button>Cuidado de piel</button>
+        </div>
+        <div class="productos">
+            <div class="producto">
+                <img src="producto1.jpg" alt="Producto 1">
+                <h3>Base de maquillaje</h3>
+                <p>$15.99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="producto2.jpg" alt="Producto 2">
+                <h3>Sombra de ojos</h3>
+                <p>$12.99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="producto3.jpg" alt="Producto 3">
+                <h3>Labial rojo</h3>
+                <p>$9.99</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </section>
+    <section id="cinnamon-roll">
+        <h2>Productos Cinnamon Roll</h2>
+        <div class="cinnamon-roll-productos">
+            <div class="producto">
+                <img src="cinnamon-roll-labial.jpg" alt="Labial Cinnamon Roll">
+                <h3>Labial Cinnamon Roll</h3>
+                <p>$14.99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="cinnamon-roll-sombra.jpg" alt="Sombra Cinnamon Roll">
+                <h3>Sombra Cinnamon Roll</h3>
+                <p>$16.99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="cinnamon-roll-base.jpg" alt="Base Cinnamon Roll">
+                <h3>Base Cinnamon Roll</h3>
+                <p>$19.99</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+
+
+        <model-viewer
+            alt="solo cinamonroll"
+            src="./cinamonroll/objeto 1.glb"
+            ar environment-image="shared-assets/environments/moon_1k.hdr"
+            poster="./cinamonroll/cargando.webp" shadow-intensity="1" camera-controls
+            touch-action="pan-y"></model-viewer>
+
+        <p> 2023 Maquillaje Sweet. Todos los derechos reservados.</p>
+        </footer>
+</body>
+
+</html>
